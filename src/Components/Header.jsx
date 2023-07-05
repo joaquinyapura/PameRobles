@@ -23,27 +23,31 @@ export const Header = () => {
           alt=""
           className="min-h-screen w-full hidden lg:block"
         />
-        <img src={imagenHeadermobile} alt="" className="min-h-screen w-full" />
+        <img
+          src={imagenHeadermobile}
+          alt=""
+          className="min-h-screen w-full lg:hidden"
+        />
       </div>
       <div className="mx-auto w-1/5 mx-auto mt-12">
         <img src={logo} alt="" />
       </div>
 
-      <div className="gallery grid grid-cols-3 gap-6 justify-center mt-20 p-4">
+      <div className="gallery grid lg:grid-cols-3 grid-cols-1 gap-6 justify-center mt-20 p-4">
         <div className="">
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="" />
         </div>
         <div className="">
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="" />
         </div>
         <div className="">
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="" />
         </div>
         <div className="">
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="" />
         </div>
         <div className="">
-          <img src={imagen} alt="" srcset="" />
+          <img src={imagen} alt="" />
         </div>
       </div>
 

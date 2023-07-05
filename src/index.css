@@ -9,3 +9,13 @@
   border: none;
   outline: none;
 }
+
+.background {
+  background-image: linear-gradient(#16211c, #6e7c5b);
+}
+
+@media only screen and (min-width: 1000px) {
+  .background {
+    background-image: none;
+  }
+}
