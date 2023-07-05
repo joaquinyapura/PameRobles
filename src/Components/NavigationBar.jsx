@@ -29,7 +29,7 @@ export const NavigationBar = () => {
           <li className="hover:text-yellow-500 transition ease-in-out duration-500">
             <a href="">Contacto</a>
           </li>
-          <div className="flex gap-6 w-full lg:ml-60 justify-center lg:justify-start py-10 lg:py-0 ">
+          <div className="flex gap-6 w-full lg:ml-80 justify-center lg:justify-start py-10 lg:py-0 ">
             <li>
               <a href="">
                 <img src={instagram} alt="" />
