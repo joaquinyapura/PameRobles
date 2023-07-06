@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   font-family: "Crimson Text", serif;
@@ -18,4 +21,18 @@
   .background {
     background-image: none;
   }
+}
+
+.svgNegro {
+  filter: invert(1);
+}
+
+textarea {
+  line-height: 4ch;
+  background-image: linear-gradient(
+    transparent,
+    transparent calc(4ch - 1px),
+    #a0a6ad 0px
+  );
+  background-size: 100% 4ch;
 }

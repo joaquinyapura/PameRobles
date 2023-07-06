@@ -11,8 +11,10 @@ export const Header = () => {
       <NavigationBar />
       <div className="mx-auto min-h-screen">
         <div className="absolute lg:w-1/3 w-full flex flex-col  mt-0 lg:mx-36  lg:text-left text-center lg:mt-64 mt-40 justify-center text-center ">
-          <h1 className="text-white text-8xl whitespace-nowrap">PAM ROBLES</h1>
-          <h3 className="text-5xl whitespace-nowrap font-bold text-amber-500">
+          <h1 className="text-white lg:text-8xl text-6xl whitespace-nowrap">
+            PAM ROBLES
+          </h1>
+          <h3 className="lg:text-5xl text-4xl whitespace-nowrap font-bold text-amber-500">
             Nature Photography
           </h3>
         </div>
